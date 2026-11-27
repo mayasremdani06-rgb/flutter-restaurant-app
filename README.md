@@ -1,17 +1,38 @@
-# flutter-restaurant-app
+#  Café Premium
 
-A new Flutter project.
+## Présentation
 
-## Getting Started
+Café Premium est une application mobile développée avec Flutter pour une pâtisserie. Elle permet au client de consulter les détails de chaque produit, de composer un panier, de passer des commandes, etc. En plus, elle possède un espace admin qui facilite l'ajout ainsi que la modification des produits.
 
-This project is a starting point for a Flutter application.
+## Fonctionnalités
 
-A few resources to get you started if this is your first Flutter project:
+### Côté client
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Catalogue par catégorie : Cake ou Coffee, avec un tri selon le nom ou le prix.
+- Fiche produit : description détaillée et ingrédients, pour que le client sache ce qu'il mange.
+- Panier : permet de visualiser les choix, de les modifier et de les valider.
+- Raccourcis et actions rapides : appel, localisation, envoi d'e-mails, partage des produits entre amis.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Page À propos
+
+Contient les coordonnées ainsi que l'ensemble des informations sur la pâtisserie.
+
+### Préférences utilisateur
+
+Thème, tri, choix de la devise.
+
+### Administration
+
+CRUD complet sur les plats : lire, écrire, supprimer, etc.
+
+## Stack technique
+
+| Domaine | Technologie |
+|---|---|
+| Framework | Flutter / Dart |
+| Base de données locale | [`sqflite`](https://pub.dev/packages/sqflite) + [`path`](https://pub.dev/packages/path) |
+| Préférences & panier | [`shared_preferences`](https://pub.dev/packages/shared_preferences) |
+| Liens externes (tél., mail, carte) | [`url_launcher`](https://pub.dev/packages/url_launcher) |
+| Partage | [`share_plus`](https://pub.dev/packages/share_plus) |
+| Gestion d'état | `ValueNotifier` / `ValueListenableBuilder` |
+| Thème | Material Design, thèmes clair et sombre |
