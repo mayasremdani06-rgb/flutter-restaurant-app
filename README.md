@@ -1,4 +1,4 @@
-# appv2
+# flutter-restaurant-app
 
 A new Flutter project.
 
