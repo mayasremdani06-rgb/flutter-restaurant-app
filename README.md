@@ -1,8 +1,8 @@
-#  Café Premium
+# ☕ Café Premium
 
 ## Présentation
 
-Café Premium est une application mobile développée avec Flutter pour Un café-pâtisserie. Elle permet au client de consulter les détails de chaque produit, de composer un panier, de passer des commandes, etc. En plus, elle possède un espace admin qui facilite l'ajout ainsi que la modification des produits.
+Café Premium est une application mobile développée avec Flutter pour un café-pâtisserie. Elle permet au client de consulter les détails de chaque produit, de composer un panier, de passer des commandes, etc. En plus, elle possède un espace admin qui facilite l'ajout ainsi que la suppression des produits.
 
 ## Fonctionnalités
 
@@ -15,7 +15,7 @@ Café Premium est une application mobile développée avec Flutter pour Un café
 
 ### Page À propos
 
-Contient les coordonnées ainsi que l'ensemble des informations sur la pâtisserie.
+Contient les coordonnées ainsi que l'ensemble des informations sur le café-pâtisserie.
 
 ### Préférences utilisateur
 
@@ -23,7 +23,7 @@ Thème, tri, choix de la devise.
 
 ### Administration
 
-CRUD complet sur les plats : lire, écrire, supprimer, etc.
+CRUD sur les plats : ajouter, lire, supprimer.
 
 ## Stack technique
 
